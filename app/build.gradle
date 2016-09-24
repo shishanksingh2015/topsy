@@ -31,22 +31,22 @@ android {
     signingConfigs {
         // todo change as per app config
         debugProd {
-            storeFile file("../jumpstart.keystore")
-            storePassword "moldedbits"
-            keyAlias "jumpstart"
-            keyPassword "moldedbits"
+            storeFile file("../topsy.keystore")
+            storePassword "shishank"
+            keyAlias "topsy"
+            keyPassword "shishank"
         }
         release {
-            storeFile file("../jumpstart.keystore")
-            storePassword "moldedbits"
-            keyAlias "jumpstart"
-            keyPassword "moldedbits"
+            storeFile file("../topsy.keystore")
+            storePassword "shishank"
+            keyAlias "topsy"
+            keyPassword "shishank"
         }
         releaseProd {
-            storeFile file("../jumpstart.keystore")
-            storePassword "moldedbits"
-            keyAlias "jumpstart"
-            keyPassword "moldedbits"
+            storeFile file("../topsy.keystore")
+            storePassword "shishank"
+            keyAlias "topsy"
+            keyPassword "shishank"
         }
     }
 
